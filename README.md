@@ -25,11 +25,11 @@ Bem-vindo ao **Capt. Pods**! Este projeto é um site estiloso criado para armaze
 
 ## Fotos do Pinterest
 
-![*∗❐‒×𝐇𝐢𝐧𝐚𝐤𝐨 𝐍𝐨𝐭𝐞× ➞ ×𝘒𝘶𝘪𝘯𝘢 𝘕𝘢𝘵𝘶𝘨𝘢𝘸𝘢×](https://i.pinimg.com/564x/93/03/d0/9303d09db51e2272cd4bb1b029b11c95.jpg)
+<img src="[URL_DA_IMAGEM_AQUI](https://i.pinimg.com/736x/e9/63/7a/e9637ae9d9e07851cc14f36aa3a0f1e0.jpg)" alt="ほぜ .𝕄𝖆𝖙𝖈𝖍𝖎𝖓𝖌 𝖎𝖈𝖔𝖓 ¡¡ - 113#" width="600"/>
 
 *Imagem 1: Menina ta contando os dedos, È ISSO KKKKKSKSKSKS.*
 
-![ほぜ .𝕄𝖆𝖙𝖈𝖍𝖎𝖓𝖌 𝖎𝖈𝖔𝖓 ¡¡ - 113#](https://i.pinimg.com/736x/e9/63/7a/e9637ae9d9e07851cc14f36aa3a0f1e0.jpg).
+<img src="https://i.pinimg.com/564x/93/03/d0/9303d09db51e2272cd4bb1b029b11c95.jpg" alt="*∗❐‒×𝐇𝐢𝐧𝐚𝐤𝐨 𝐍𝐨𝐭𝐞× ➞ ×𝘒𝘶𝘪𝘯𝘢 𝘕𝘢𝘵𝘶𝘨𝘢𝘸𝘢×" width="600"/>
 
 *Imagem 2: Achei bem daora, me lembrou o anime do fantasma.*
 
@@ -43,5 +43,6 @@ Bem-vindo ao **Capt. Pods**! Este projeto é um site estiloso criado para armaze
 
 ## Como Usar
 -A baixe ou visualize, e pode usar pedaços ou utilizar de inspiração
+
 
 
