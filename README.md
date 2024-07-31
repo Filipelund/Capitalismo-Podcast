@@ -25,7 +25,7 @@ Bem-vindo ao **Capt. Pods**! Este projeto é um site estiloso criado para armaze
 
 ## Fotos do Pinterest
 
-<img src="https://i.pinimg.com/736x/e9/63/7a/e9637ae9d9e07851cc14f36aa3a0f1e0.jpg" alt="ほぜ .𝕄𝖆𝖙𝖈𝖍𝖎𝖓𝖌 𝖎𝖈𝖔𝖓 ¡¡ - 113#" height="20" width="200"/>
+<img src="https://i.pinimg.com/736x/e9/63/7a/e9637ae9d9e07851cc14f36aa3a0f1e0.jpg" alt="ほぜ .𝕄𝖆𝖙𝖈𝖍𝖎𝖓𝖌 𝖎𝖈𝖔𝖓 ¡¡ - 113#" height="200" width="200"/>
 
 *Imagem 1: Menina ta contando os dedos, È ISSO KKKKKSKSKSKS.*
 
