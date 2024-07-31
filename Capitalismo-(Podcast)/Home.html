@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Capt. pods | Home</title>
+
+      <link rel="icon" href="/Imagens e Audio/Icon Capt. Podcast.png" type="image/png">
+
+      
+      <!-- Bibliotecas de css  -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+
+
+
+
+      <style>
+
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #000000 0%, #0d0d0d 70%, #d4af37 100%);
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+
+
+
+.perfil-container {
+    position: relative;
+    padding: 20px;
+}
+
+
+.perfil-container img {
+    position: relative;
+    height: 15%;
+    width: 15%;
+    left: 7%;
+    margin-top: 4%;
+    border-radius: 50%;
+    border: 5px solid aquamarine;
+    transition: border-color 0.5s;
+}
+
+
+.perfil-container img.borda-animada {
+    animation: mudar-cor-borda 5s linear infinite;
+}
+
+
+@keyframes mudar-cor-borda {
+    0% { border-color: aquamarine; }
+    25% { border-color: #3399ff; }
+    50% { border-color: #66ccff; }
+    75% { border-color: #0099ff; }
+    100% { border-color: aqua; }
+}
+
+
+.perfil-container h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    color: #FFD700;
+    text-shadow:
+        2px 2px 0 #000,
+        3px 3px 0 #FFD700,
+        4px 4px 0 rgba(0, 0, 0, 0.5);
+    letter-spacing: 5px;
+    background: linear-gradient(135deg, #FFD700, #fff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    margin-left: 6%;
+}
+
+
+
+
+
+
+.botao-para-podcasts {
+    background: linear-gradient(45deg, #FFD700, #FF4500);
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 20px;
+    margin-left: 6%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.botao-para-podcasts i {
+    margin-right: 10px;
+}
+
+.botao-para-podcasts::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 60%);
+    transition: transform 0.3s ease;
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+}
+
+.botao-para-podcasts:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+.botao-para-podcasts:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.botao-para-podcasts:active {
+    background: linear-gradient(45deg, #FF4500, #FFD700);
+}
+
+
+
+
+
+
+.titulo-do-podcast {
+    font-size: 20px;
+    margin-top: -19%;
+    margin-right: 7.5%;
+    color: #FFFFFF;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: linear-gradient(45deg, aquamarine, #FFD700, hotpink, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.titulo-do-podcast:hover {
+    transform: scale(1.05);
+    color: #FFFFFF;
+}
+
+
+
+
+
+.modal-audio {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.conteudo-modal-audio {
+    background: linear-gradient(135deg, #000000 0%, #0d0d0d 70%, #d4af37 100%);
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+.cabecalho-modal-audio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.cabecalho-modal-audio h2 {
+    margin: 0;
+}
+
+
+
+.fechar {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+
+.container-onda {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.onda {
+    width: 100%;
+    height: 128px;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+
+.titulo-podcast-inferior {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    color: #FFD700;
+    background: linear-gradient(135deg, #FFD700, #fff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+.conteudo-modal-audio > * {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    /* Adicionar estilos específicos para dispositivos móveis aqui */
+
+
+
+
+    .titulo-do-podcast {
+        margin-top: 17%;
+        
+    }
+
+
+
+
+
+    .perfil-container img {
+       
+        height: 150px;
+        width: 150px;
+    }
+
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+    .perfil-container img {
+       
+       height: 250px;
+       width: 250px;
+   }
+
+
+
+}
+
+
+
+        
+
+      </style>
+
+
+</head>
+<body>
+
+
+    
+
+
+
+    <div class="perfil-container">
+
+
+    <img src="Imagens e Audio/Foca foto de perfil.jpg" alt="perfil" id="imagem-perfil">
+
+    <h1>Erick <span style="color: aquamarine">Foca</span></h1>
+
+
+    <button class="botao-para-podcasts animate__animated animate__bounceIn" id="abrirModalAudio">
+        <i class="fas fa-play"></i> Ouvir Podcasts
+    </button>
+
+
+    </div>
+    
+
+
+
+
+    <div class="titulo-do-podcast">
+    <h1>Capt. pods</h1>
+    </div>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal-audio" id="modalAudio">
+    <div class="conteudo-modal-audio animate__animated animate__fadeInUp">
+        <div class="cabecalho-modal-audio">
+
+            <h2>Podcasts Disponíveis</h2>
+            <button class="fechar" id="fecharModalAudio">&times;</button>
+
+        </div>
+
+
+        <div class="titulo-podcast-inferior">
+            Capitalismo: O Jogo do Poder
+        </div>
+
+
+        <div class="container-onda">
+            <div id="onda"></div>
+
+            <button id="playPause" class="botao-para-podcasts" style="margin-top: 10px;">
+                <i class="fas fa-play"></i> Iniciar/Parar
+            </button>
+
+
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script>
+        // Inicializar WaveSurfer
+        const wavesurfer = WaveSurfer.create({
+            container: '#onda',
+            waveColor: '#ddd',
+            progressColor: '#FFD700',
+            cursorColor: 'aqua',
+            height: 128,
+            barWidth: 2,
+            responsive: true
+        });
+
+        wavesurfer.load('/Imagens e Audio/Podcast (Audio).mp3'); // Substitua pelo caminho do seu arquivo de áudio
+
+        // Controle de Modal
+        const modalAudio = document.getElementById('modalAudio');
+        const abrirModalAudio = document.getElementById('abrirModalAudio');
+        const fecharModalAudio = document.getElementById('fecharModalAudio');
+
+        abrirModalAudio.addEventListener('click', () => {
+            modalAudio.style.display = 'flex';
+        });
+
+        fecharModalAudio.addEventListener('click', () => {
+            modalAudio.style.display = 'none';
+            wavesurfer.pause();
+        });
+
+        // Controle do botão de Play/Pause
+        const playPauseButton = document.getElementById('playPause');
+        playPauseButton.addEventListener('click', () => {
+            if (wavesurfer.isPlaying()) {
+                wavesurfer.pause();
+                playPauseButton.innerHTML = '<i class="fas fa-play"></i> Iniciar';
+            } else {
+                wavesurfer.play();
+                playPauseButton.innerHTML = '<i class="fas fa-pause"></i> Pausar';
+            }
+        });
+    </script>
+
+
+
+   
+
+
+
+   </body>
+</html>
