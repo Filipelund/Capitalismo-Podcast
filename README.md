@@ -1,27 +1,13 @@
-# Capitalismo-Podcast
+## FiloSound: Mergulhe na Música da Filosofia
 
+FiloSound é o seu portal para uma experiência sonora única, onde a música se encontra com a filosofia. Com um design moderno e elegante, você poderá explorar um universo de podcasts inspirados nas ideias e reflexões de grandes pensadores.
 
-# Capt. Pods 🎧
+Navegue pelo site e conheça o host Sócrates, um guia que te levará em uma jornada sonora através da sabedoria e do conhecimento. Descubra podcasts que exploram temas como ética, política, metafísica e muito mais, sempre acompanhados de trilhas sonoras que evocam a atmosfera e a profundidade das reflexões filosóficas.
 
-Bem-vindo ao **Capt. Pods**! Este projeto é um site estiloso criado para armazenar e reproduzir podcasts. Desenvolvido como parte de um trabalho de história, o site combina design moderno com funcionalidades interativas para proporcionar uma experiência sonora incrível.
+Aproveite um player interativo com a tecnologia WaveSurfer, que te permite visualizar a onda sonora e mergulhar na experiência musical. Deixe-se levar pelas melodias e descubra novas perspectivas sobre o mundo.
 
-## Visão Geral
+FiloSound: Uma sinfonia de ideias para sua mente.
 
-**Capt. Pods** oferece uma maneira fácil e divertida de explorar e ouvir podcasts. Navegue pelo site, conheça o host Erick Foca e aproveite um player interativo para uma experiência sonora imersiva.
-
-## Estrutura do Projeto
-
-- **Home.html**: O arquivo principal HTML do site.
-- **Imagens e Audio**: Pasta contendo imagens e arquivos de áudio usados no projeto.
-  - **Podcast (Audio).mp3**: Arquivo de áudio do podcast.
-  - **Icon Capt. Podcast.png**: Ícone do site.
-  - **Foca foto de perfil.jpg**: Foto de perfil do Erick Foca.
-
-## Funcionalidades
-
-- **Perfil Personalizado**: Apresenta Erick Foca com um estilo visual marcante.
-- **Botão "Ouvir Podcasts"**: Abre um modal interativo com um player de áudio.
-- **WaveSurfer**: Visualiza a onda do áudio com um player interativo que destaca cada batida.
 
 ## Fotos do Pinterest
 
@@ -33,16 +19,30 @@ Bem-vindo ao **Capt. Pods**! Este projeto é um site estiloso criado para armaze
 
 *Imagem 2: Menina ta contando os dedos, È ISSO KKKKKSKSKSKS.*
 
-## Tecnologias Utilizadas
 
-- **HTML**: Estruturação do conteúdo.
-- **CSS**: Estilização e design responsivo.
-- **JavaScript**: Funcionalidade interativa com WaveSurfer.js.
-- **Font Awesome**: Ícones para uma interface visualmente rica.
-- **Animate.css**: Animações para interações dinâmicas.
+### Recursos do FiloSound:
+
+* **Perfil Personalizado de Sócrates:** Explore a história do filósofo e conheça sua paixão por compartilhar a sabedoria através da música.
+* **Botão "Ouvir Podcasts":** Acesso direto ao modal interativo com o player de música.
+* **WaveSurfer:** Visualização da onda sonora para uma experiência imersiva.
+* **Podcasts Temáticos:** Explore uma variedade de podcasts que combinam música e filosofia.
+* **Design Moderno:** Interface intuitiva e elegante para uma navegação fácil.
+
+### Tecnologias Utilizadas:
+
+* **HTML:** Estrutura do conteúdo.
+* **CSS:** Estilização e design responsivo.
+* **JavaScript:** Funcionalidade interativa com WaveSurfer.js.
+* **Font Awesome:** Ícones para uma interface visualmente rica.
+* **Animate.css:** Animações para interações dinâmicas.
+
+FiloSound: Uma experiência sonora que te fará pensar e sentir.
 
 ## Como Usar
 -A baixe ou visualize, e pode usar pedaços ou utilizar de inspiração
+
+
+Junte-se a nós e explore a música da filosofia!
 
 
 
